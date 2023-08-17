@@ -91,6 +91,36 @@ a.btn-branding-outline{
 .content p{
     font-size:14px;
 }
+
+/*Nav bar */
+.logo{
+    max-width:150px;
+}
+.logosmall{
+    max-width:43px;
+}
+nav{
+    padding:20px 0;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    list-style:none;
+    line-height:42px;
+    margin-left:10px;
+}
+nav a{
+    color:#272142;
+    text-decoration: none;
+    transition:all 100ms ease-in-out;
+}
+nav a:hover, nav li.active a{
+    color:var(--branding-color);
+}
+
 @media(max-width:960px){
     .hero{
         padding:80px 20px;
@@ -110,4 +140,7 @@ a.btn-branding-outline{
         text-align:center;
         padding:0;
     }
+    /* nav a{
+        font-size:12px;
+    } */
 }
