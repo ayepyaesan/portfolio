@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aye Pyae Wai Khin Soe-Portfolio</title>
+    <meta name="description" conttent="Aye Pyae Wai Khin Soe is a front-end developer based in Myanmar.">
+    <title>Frontend developer-Aye Pyae Wai Khin Soe</title>
     <!--css link-->
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <!--Bootstrap css 1 js 1-->
@@ -14,6 +15,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo d-none d-md-block" title= "HomePage" alt="sheCodeslogo" >
+                <img src="images/logosmall.jpg" class="logosmall d-block d-md-none" title= "HomePage" alt="sheCodeslogo" >
+            </a>
+            <ul>
+                <li>
+                    <a href="index.html" title="HomePage">Home</a></li>
+                <li class="active">
+                    <a href="about.html" title="About Aye Pyae">About</a></li>
+                <li>
+                    <a href="work.html" title="Aye Pyae's work">Work</a></li>
+                <li>
+                    <a href="contact.html" title="Contact Aye Pyae">Contact</a></li>  
+            </ul>
+        </nav>
+    </div>
+
     <div class="container content-container">
         <div class="row">
             <div class="col-lg-6">
@@ -23,15 +44,37 @@
                     <p>For anyone who wants to start learning code, this workshop is very interesting.
                     You will be challenged with different exercises, and everything is well explained,
                     homework and deadlines are good for keep focus</p>
-                    <a href="#" class="btn btn-branding">View all projects</a>
+                    <a href="work.html" class="btn btn-branding">View all projects</a>
                 </div>
             </div>
             <div class="col-lg-6 p-5">
-                <img src="images/me.JPG" class="img-fluid rounded" alt="" /> 
+                <img src="images/me.JPG" class="img-fluid rounded" alt="Aye Pyae Wai Khin Soe" /> 
             </div>
         </div>
     </div>
     
+     
+    <footer>
+        <div class="container contact-box d-flex justify-content-between mb-5">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together and I'll help you all my best</p>
+            </div>
+            <div><a href="contact.html" title="Contact Me" class="btn btn-branding mt-3">Contact Me</a></div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:ayepyae2000.mdy@gmail.com" class="email-link" title="Email Aye Pyae">ayepyae2000.mdy@gmail.com</a>
+        </div>
+        
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://www.instagram.com/apyae_r/" title="Instagram Profile" target="_blank"> <i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/ayepyaesan" title="GitHub Profile" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/aye.pyae.547" title="Facebook Profile" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="text-center mt-5">This Project is coded by Aye Pyae
+            <a href="https://github.com/ayepyaesan/portfolio">Open-sourced</a>
+        </p>
+    </footer>
     
 </body>
 <!--bootstrap js 1 css 1-->
